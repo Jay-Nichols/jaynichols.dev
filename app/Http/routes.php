@@ -11,6 +11,18 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function() {
     return view('index');
+});
+
+Route::get('/contact', function() {
+	return view('contact');
+});
+
+Route::get('/portfolio', function() {
+	return view('portfolio');
+});
+
+Route::get('/blog', function() {
+	return view('blog');
 });

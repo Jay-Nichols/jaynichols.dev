@@ -1,5 +1,5 @@
 @extends('layouts.master')
 
 @section('content')
-	<body id="master"></body>
+	<body id="contact"></body>
 @stop
