@@ -2,3 +2,22 @@
 	background-image: url(../img/pen.jpg);
 	background-size: cover;
 }
+
+
+.jumbotron {
+	opacity: 0.5;	
+}
+
+.links {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.links a:hover {
+	color: #1FEEF5;
+}
+
+
+
+
+

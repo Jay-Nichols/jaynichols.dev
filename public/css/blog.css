@@ -1,3 +1,26 @@
 .blog {
-	background-image: -webkit-linear-gradient(#54ABB8, #1FEEF5);
+	background-image: url(../img/forest.jpg);
+	background-size: cover;
+}
+
+.blog-container {
+	position: relative;
+	width: auto;
+	height: auto;
+	top: 10em;
+}
+
+.blog-text {
+	font-family: 'Concert One', cursive;
+	font-size: 7em;
+	color: black;
+	text-shadow: 0 0 3px #FF0000, 0 0 20px #FF0000, 0 0 5px #FF0000;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.blog-text:hover {
+	-webkit-transform: scale(2.0);
+	-ms-transform: scale(2.0);
+	transform: scale(2.0);
 }

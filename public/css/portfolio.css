@@ -1,0 +1,14 @@
+#portfolio {
+	background-image: url(../img/stars.jpg);
+	background-size: cover;
+}
+
+.portfolio-container {
+	position: relative;
+	width: 90em;
+	height: 20em;
+	border: 2px solid white;
+	left: 5em;
+	border-radius: 10px;
+	box-shadow: 0 0 30px #F2F918, 0 0 10px white, 0 0 20px white; 
+}
