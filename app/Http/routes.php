@@ -26,3 +26,11 @@ Route::get('/portfolio', function() {
 Route::get('/blog', function() {
 	return view('blog');
 });
+
+Route::get('/simple-simon', function() {
+	return view('simple-simon');
+});
+
+Route::get('/calculator', function() {
+	return view('calculator');
+});

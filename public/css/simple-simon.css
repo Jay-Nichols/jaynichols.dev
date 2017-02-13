@@ -1,0 +1,42 @@
+h1 {
+	text-align: center;
+}
+
+
+#wrapper {
+	position: relative;
+	width: 375px;
+	height: 375px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+.square {
+	height: 150px;
+	width: 150px;
+	border-radius: 25px;
+	opacity: 0.3;
+	margin: 5px;
+	display: inline-block;
+
+}
+
+#red {
+	background-color: #ff1a1a;
+}
+
+#blue {
+	background-color: #0073e6;
+}
+
+#yellow {
+	background-color: #ffff1a;
+}
+
+#green {
+	background-color: #33cc33;
+}
+
