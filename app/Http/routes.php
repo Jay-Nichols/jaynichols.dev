@@ -34,3 +34,7 @@ Route::get('/simple-simon', function() {
 Route::get('/calculator', function() {
 	return view('calculator');
 });
+
+Route::get('/weather-map', function() {
+	return view('weather-map');
+});

@@ -2,60 +2,60 @@
 
 @section('content')
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>My Calculator</title>
-	<link rel="stylesheet" href="css/build_calculator.css">
-
-   
-</head>
+<html>
+	<head>
+		<title>Calculator</title>
+		<link rel="stylesheet" href="CSS/calculator.css">
+	</head>
 	<body>
-	<h1>Enter in Your Basic Math Function</h1></br></br>
-	<div class="Calculator-style">
-		<div class="Output_Fields">
-			<input type="text" id="left-output" readonly="readonly">
-			<input type="text" id="center-output" readonly="readonly">
-			<input type="text" id="right-output" readonly="readonly">
- 			</div><br>
-		<div class="top-row">
-			<button class="number" id="btn1" data-value="1">1</button>
-			<button class="number"  id="btn2" data-value="2">2</button>
-			<button class="number" id="btn3" data-value="3">3</button>
-			<button class="operator" id="btn11" data-value="+">+</button><br><br>
-		</div>
-		<div class = "middle-row">
-			<button class="number" id="btn4" data-value="4">4</button>
-			<button class="number" id="btn5" data-value="5">5</button>
-			<button class="number" id="btn6" data-value="6">6</button>
-			<button class="operator" id="btn12" data-value="-">-</button><br><br>
-		</div>
-		<div class = "third-row">
-			<button class="number" id="btn7" data-value="7">7</button>
-			<button class="number" id="btn8" data-value="8">8</button>
-			<button class="number" id="btn9" data-value="9">9</button>
-			<button class="operator" id="btn13" data-value="*">*</button><br><br>
-		</div>
-		<div class = "fourth-row">
-			<button class="buttons" id="clear_button" data-value="C">C</button>
-			<button class="number" id="btn10" data-value="0">0</button>
-			<button class="buttons" id="equal_button" data-value="=">=</button>
-			<button class="operator" id="btn14" data-value="/">/</button>
-		</div><br>
-		<div class = "fifth-row">
-			<button class="number" id="decimal_button">.</button>
-			<button class="number" id="negative_button">-</button>
-			<button class="buttons" id="back_button">DT</button>
-			<button class="buttons" id="square_root">√</button>
-	 </div><br>
-	 	<div class = "sixth-row">
-	 		<button class="operator" id="power_raised">^</button>
+		<h1>Calculator</h1>
+		<div id="calculator-body">
+			<div class="row" id="display">
+				<input type="text" id="leftSide" readonly></input>
+				<input type="text" id="operator" readonly></input>
+				<input type="text" id="rightSide" readonly></input>
+			</div>
 
+			<div class="keypad">
+				<div id="row-one">
+					<button type="button" class="btn btn-info btn-m" id="clear-bttn" value="C">C</button>
+					<button type="button" class="btn btn-info btn-m signs" id="percent-bttn" value="%">%</button>
+					<button type="button" class="btn btn-info btn-m signs" id="exponent-bttn" value="^">^</button>
+					<button type="button" class="btn btn-info btn-m signs" id="sqrt-bttn" value="sqrt">sqrt</button>
 
+				</div>
+				<div id="row-two">
+					<button type="button" class="btn btn-info btn-m digits" value="7">7</button>
+					<button type="button" class="btn btn-info btn-m digits" value="8">8</button>
+					<button type="button" class="btn btn-info btn-m digits" value="9">9</button>
+					<button type="button" class="btn btn-info btn-m signs" value="/">/</button>
+				</div>
+	
+				<div id="row-three">
+					<button type="button" class="btn btn-info btn-m digits" value="4">4</button>
+					<button type="button" class="btn btn-info btn-m digits" value="5">5</button>
+					<button type="button" class="btn btn-info btn-m digits" value="6">6</button>
+					<button type="button" class="btn btn-info btn-m signs" value="*">*</button>
+				</div>
+	
+				<div id="row-four">
+					<button type="button" class="btn btn-info btn-m digits" value="1">1</button>
+					<button type="button" class="btn btn-info btn-m digits" value="2">2</button>
+					<button type="button" class="btn btn-info btn-m digits" value="3">3</button>
+					<button type="button" class="btn btn-info btn-m signs" value="+">+</button>
+				</div>
+	
+				<div id="row-five">
+					<button type="button" class="btn btn-info btn-m digits" value="0">0</button>
+					<button type="button" class="btn btn-info btn-m digits" value=".">.</button>
+					<button type="button" class="btn btn-info btn-m" id="equals" value="=">=</button>
+					<button type="button" class="btn btn-info btn-m signs" value="-">-</button>
+				</div>
+				</div>
 
-	<script src="/calculator.js"></script>
+			</div>
+		</div>
+		<script src="js/calculator.js"></script>
 	</body>
-	</html>
+</html>
 @stop

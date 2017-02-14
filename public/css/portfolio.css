@@ -1,14 +1,43 @@
-#portfolio {
-	background-image: url(../img/stars.jpg);
-	background-size: cover;
+body {
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
 }
 
-.portfolio-container {
-	position: relative;
-	width: 90em;
-	height: 20em;
-	border: 2px solid white;
-	left: 5em;
-	border-radius: 10px;
-	box-shadow: 0 0 30px #F2F918, 0 0 10px white, 0 0 20px white; 
+
+.projects {
+	background: #EEEFF1;
+	width: 90%;
+	margin: 10px auto;
+	padding: 20px 0px;
+	text-align: center;
+	overflow: hidden;
+	display: flex;
+}
+
+.project {
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 100%;
+  margin-bottom: -100%;
+  flex: 1;
+}
+
+p {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h2 {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+img {
+	width: 200px;
+	height: 200px;
 }
