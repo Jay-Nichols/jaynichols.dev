@@ -11,21 +11,13 @@
 |
 */
 
-Route::get('/', function() {
-    return view('index');
-});
+Route::get('/', 'HomeController@index');
 
-Route::get('/contact', function() {
-	return view('contact');
-});
+Route::get('/contact', 'ContactController@index');
 
-Route::get('/portfolio', function() {
-	return view('portfolio');
-});
+Route::get('/portfolio', 'PortfolioController@index');
 
-Route::get('/blog', function() {
-	return view('blog');
-});
+Route::get('/blog', 'BlogController@index');
 
 Route::get('/simple-simon', function() {
 	return view('simple-simon');
