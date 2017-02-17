@@ -36,4 +36,35 @@ class User extends Model implements AuthenticatableContract,
      * @var array
      */
     protected $hidden = ['password', 'remember_token'];
+
+    //user has many posts
+    public function posts()
+    {
+        return $this->hasMany('App\Posts', 'author_id');
+    }
+
+    //user has many comments    
+    public function comments()
+    {
+        return $this->hasMany('App\Comments', 'from_user');
+    }
+
+    public function can_post()
+    {
+        $roll = $this->role;
+        if($role == 'author' || $role == 'admin') {
+            return true;
+        }
+            return false;
+    }
+
+    public function is_admin()
+    {
+        $role = $this->role;
+        if($role == 'admin') {
+            return true;
+        }
+            return false;
+    }
+
 }

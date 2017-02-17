@@ -17,7 +17,7 @@ Route::get('/contact', 'ContactController@index');
 
 Route::get('/portfolio', 'PortfolioController@index');
 
-Route::get('/blog', 'BlogController@index');
+// Route::get('/blog', 'BlogController@index');
 
 Route::get('/simple-simon', function() {
 	return view('simple-simon');
@@ -30,3 +30,50 @@ Route::get('/calculator', function() {
 Route::get('/weather-map', function() {
 	return view('weather-map');
 });
+
+
+
+//Blog routes
+
+
+Route::get('/blog', 'PostController@index');
+Route::get('/blog-view', ['as' => 'home', 'uses' => 'PostController@index']);
+
+//authentication
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);
+
+//checking for logged-in user
+
+Route::group(['middleware' => ['auth']], function()
+{
+	//show new post form
+	Route::get('new-post', 'PostController@create');
+	//save new post
+	Route::post('new-post', 'PostController@store');
+	//edit post form
+	Route::get('edit/{slug}', 'PostController@edit');
+	//update post 
+	Route::post('update', 'PostController@update');
+	//delete post
+	Route::get('delete/{id}', 'PostController@destroy');
+	//display all user's posts
+	Route::get('all-my-posts', 'UserController@user_posts_all');
+	//display user's drafts
+	Route::get('my-drafts', 'UserController@user_posts_draft');
+	//add comment
+	Route::post('comment/add', 'CommentController@store');
+	//delete comment
+	Route::post('comment/delete/{id}', 'CommentController@destroy');
+});
+
+//user's profile
+Route::get('user/{id}', 'UserController@profile')->where('id', '[0-9]+');
+//display list of posts
+Route::get('user/{id}/posts', 'UserController@user_posts')->where('id', '[0-9]+');
+//display single post
+Route::get('/{slug',['as' => 'post', 'users' => 'PostController@show'])->where('slug', '[A-Za-z0-9-_]+');
+
+
