@@ -21,23 +21,25 @@ body {
   padding-bottom: 100%;
   margin-bottom: -100%;
   flex: 1;
+
 }
 
-p {
+.project p {
   color: #333;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 300;
-}
-
-h2 {
-  color: #000;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
   text-align: center;
 }
 
-img {
-	width: 200px;
-	height: 200px;
+.project h2 {
+  margin: auto;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.project img {
+	width: 16em;
+	height: 16em;
 }
