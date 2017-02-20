@@ -3,6 +3,8 @@
 Add New Post
 @endsection
 @section('content')
+ <script src="//cloud.tinymce.com/stable/tinymce.min.js"></script>
+ <script>tinymce.init({ selector:'textarea' });</script>
 <form action="/new-post" method="post">
   <input type="hidden" name="_token" value="{{ csrf_token() }}">
   <div class="form-group">

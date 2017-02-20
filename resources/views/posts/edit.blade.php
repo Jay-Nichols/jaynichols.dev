@@ -3,6 +3,8 @@
 Edit Post
 @endsection
 @section('content')
+ <script src="//cloud.tinymce.com/stable/tinymce.min.js"></script>
+ <script>tinymce.init({ selector:'textarea' });</script>
 <form method="post" action='{{ url("/update") }}'>
   <input type="hidden" name="_token" value="{{ csrf_token() }}">
   <input type="hidden" name="post_id" value="{{ $post->id }}{{ old('post_id') }}">
