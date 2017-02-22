@@ -34,7 +34,8 @@
 		  <ul class="nav navbar-nav">
 			<li class="active"><a href="/contact">Contact<span class="sr-only">(current)</span></a></li>
 			<li class="active"><a href="/portfolio">Portfolio</a></li>
-			<li class="active"><a href="/blog">Blog</a></li>
+			<!--blog view is under construction -->
+			<!-- <li class="active"><a href="/blog">Blog</a></li> -->
 		  </ul>
 		</div><!-- /.navbar-collapse-->
 	  </div><!-- /.container-fluid-->
