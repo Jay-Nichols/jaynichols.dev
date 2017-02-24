@@ -1,28 +1,30 @@
+
+
 body {
   background-color: #FFF;
   margin: 0;
   padding: 0;
 }
 
-
-.projects {
-	background: #EEEFF1;
-	width: 90%;
-	margin: 10px auto;
-	padding: 20px 0px;
-	text-align: center;
-	overflow: hidden;
-	display: flex;
+@media(min-width: 400px) {
+  .projects {
+  	background: #EEEFF1;
+  	width: 90%;
+  	margin: 10px auto;
+  	padding: 20px 0px;
+  	text-align: center;
+  	overflow: hidden;
+  	display: flex;
+  }
+  .project {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    flex: 1;
+  }
 }
 
-.project {
-  display: inline-block;
-  text-align: center;
-  padding-bottom: 100%;
-  margin-bottom: -100%;
-  flex: 1;
-
-}
 
 .project p {
   color: #333;
