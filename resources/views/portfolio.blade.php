@@ -6,7 +6,7 @@
 			<div class="project">
 				<a href="/simple-simon"><img src="img/simplesimon.jpg" alt="simple simon"></a>
 				<h2><a href="/simple-simon">Simple Simon</a></h2>
-				<p>A DOM game using JQuery.</p>
+				<p>A DOM game using JavaScript and JQuery.</p>
 			</div>
 			<div class="project">
 				<a href="/calculator"><img src="img/calculator.png" alt="calculator"></a>
@@ -17,7 +17,12 @@
 				<a href="/weather-map"><img src="img/weather.png" alt="weather"></a>
 				<h2><a href="/weather-map">Weather Map</a></h2>
 				<p>A forecasting tool using the<br> Google and Weather Map APIs.</p>
-			</div>		
+			</div>
+			<div class="project">
+				<a href="/bookmarker"><img src="img/bookmarker.jpg" alt="bookmarker"></a>
+				<h2><a href="/bookmarker">Bookmarker</a></h2>
+				<p>A JavaScript bookmarker for storing your favorite websites.</p>
+			</div>			
 		</div>
 	</body>
 @stop

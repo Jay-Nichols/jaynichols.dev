@@ -5,7 +5,6 @@
 <html>
 	<head>
 		<title>Calculator</title>
-		<link rel="stylesheet" href="CSS/calculator.css">
 	</head>
 	<body>
 		<h1>Calculator</h1>

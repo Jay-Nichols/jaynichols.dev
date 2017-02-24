@@ -31,6 +31,10 @@ Route::get('/weather-map', function() {
 	return view('weather-map');
 });
 
+Route::get('bookmarker', function() {
+	return view('bookmarker');
+});
+
 
 
 //Blog routes
