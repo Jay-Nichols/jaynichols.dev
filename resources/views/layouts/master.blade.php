@@ -41,8 +41,10 @@
 		</div><!-- /.navbar-collapse-->
 	  </div><!-- /.container-fluid-->
 	</nav>
-	<div>
-		@yield('content')
+	<div class="row">
+		<div class="span9">
+			@yield('content')
+		</div>
 	</div>
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="/js/simple-simon.js"></script>
