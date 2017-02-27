@@ -2,7 +2,7 @@
 
 @section('content')
 	<body id="contact"></body>	
-	<div class="jumbotron">
+	<div class="jumbotron" id="contact-jumbotron">
 		<div class="links">
 	  		<h2 class="display-3"><a href="https://www.linkedin.com/in/jay-nichols" target="_blank">Linked In</a></h2>
 	 		<hr class="my-4">
