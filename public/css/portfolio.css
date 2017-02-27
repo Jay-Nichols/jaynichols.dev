@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-@media(min-width: 400px) {
+@media(min-width: 200px) {
   .projects {
   	background: #EEEFF1;
   	width: 90%;
@@ -15,6 +15,7 @@ body {
   	text-align: center;
   	overflow: hidden;
   	display: flex;
+    flex-wrap: wrap;
   }
   .project {
     display: inline-block;
