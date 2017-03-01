@@ -71,11 +71,6 @@
       </footer>
 
     </div> <!-- /container -->
-
-  
-   
-	<!-- Latest compiled and minified JavaScript -->
-	
   
 
 </body>
