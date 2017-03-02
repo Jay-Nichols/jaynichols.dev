@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/css/bookmarker.css"  rel="stylesheet">
     
     <title>Site Bookmarker</title>
 
@@ -72,7 +73,7 @@
 
     </div> <!-- /container -->
   
-
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 </body>
 </html>
 @stop

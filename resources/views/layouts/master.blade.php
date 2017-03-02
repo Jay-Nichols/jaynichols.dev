@@ -11,7 +11,6 @@
 	<link href="/css/simple-simon.css" rel="stylesheet">
 	<link href="/css/calculator.css" rel="stylesheet">
 	<link href="/css/weather-map.css" rel="stylesheet">
-	<link href="/css/bookmarker.css"  rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">	
 	<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
@@ -42,12 +41,10 @@
 		</div><!-- /.navbar-collapse-->
 	  </div><!-- /.container-fluid-->
 	</nav>
-	<div class="row">
-		<div class="span9">
-			@yield('content')
-		</div>
+	<div>
+		@yield('content')	
 	</div>
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	
 	<script src="/js/simple-simon.js"></script>
 	<script src="/js/bookmarker.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
