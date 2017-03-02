@@ -1,8 +1,12 @@
+#mainBody {
+	background-image: url(../img/calulator.jpg);
+	background-size: cover;
+}
 
-
-h1 {
+#calculator-title {
 	text-align: center;
-	/*margin-bottom: 20px;*/
+	color: white;
+	margin-bottom: 20px;
 }
 
 #calculator-body {

@@ -6,8 +6,8 @@
 	<head>
 		<title>Calculator</title>
 	</head>
-	<body>
-		<h1>Calculator</h1>
+	<body id="mainBody">
+		<h1 id="calculator-title">Calculator</h1>
 		<div id="calculator-body">
 			<div class="row" id="display">
 				<input type="text" id="leftSide" readonly></input>
