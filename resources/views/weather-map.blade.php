@@ -51,7 +51,7 @@
 				    } else {
 				      alert('Geocode was not successful for the following reason: ' + status);
 				    }
-				    	address = document.getElementById('city').innerHTML = address;
+				    	address = document.getElementById('city').innerHTML;
 				  });
 				}
 				 function updateweather(){
