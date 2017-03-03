@@ -37,7 +37,7 @@
 
   </head>
 
-  <body onload='fetchBookmarks()'>
+  <body id="bookmarker-body" onload='fetchBookmarks()'>
 
     <div class="container">
       <div class="header clearfix">

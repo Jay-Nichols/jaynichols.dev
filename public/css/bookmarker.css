@@ -1,8 +1,8 @@
 /* Space out content a bit */
-body {
+#bookmarker-body {
   padding-bottom: 20px;
-  /*background-image: url(../img/animal_bookmarker.jpg);
-  background-size: cover;*/
+  background-image: url(../img/animal_bookmarker.jpg);
+  background-size: cover;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */

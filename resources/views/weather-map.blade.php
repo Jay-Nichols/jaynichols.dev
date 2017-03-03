@@ -6,7 +6,7 @@
 	<head>
 		<title>3-Day Weather Forecast</title>
 	</head>
-	<body>
+	<body id="weathermap-body">
 		<div id="container">
 		<h1>3-Day Weather Forecast</h1>
 		<h2 id="city">San Antonio, Texas</h2>
