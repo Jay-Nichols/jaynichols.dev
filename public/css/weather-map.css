@@ -2,6 +2,10 @@ h1, h2 {
 	margin-left: 50px;
 }
 
+.weathermap-heading {
+	color: white;
+}
+
 #weathermap-body {
 	background-image: url(../img/clouds.jpg);
 	background-size: cover;

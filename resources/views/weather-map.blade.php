@@ -8,8 +8,8 @@
 	</head>
 	<body id="weathermap-body">
 		<div id="container">
-		<h1>3-Day Weather Forecast</h1>
-		<h2 id="city">San Antonio, Texas</h2>
+		<h1 class="weathermap-heading">3-Day Weather Forecast</h1>
+		<h2 id="city" class="weathermap-heading">San Antonio, Texas</h2>
 			<input id="address" type="text" placeholder="Enter City">
 			<input id="submit" type="button" value="Submit">
 		</div>
