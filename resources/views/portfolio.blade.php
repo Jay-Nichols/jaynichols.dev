@@ -28,10 +28,16 @@
 						<a href="/bookmarker"><img src="img/bookmarker.jpg" alt="bookmarker"></a>
 						<h2><a href="/bookmarker">Bookmarker</a></h2>
 						<p>A JavaScript bookmarker for storing your favorite websites.</p>
+					</div>
+					<div class="project">
+						<a href="https://github.com/Jay-Nichols"><img src="img/github.png" alt="Github"></a>
+						<h2><a href="https://github.com/Jay-Nichols">Github</a></h2>
+						<p>My Github profile</p>
 					</div>			
 				</div>
 			</div>
 		</div>
+		
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	</body>
 @stop
