@@ -26,14 +26,16 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" id="nameBright" href="/">Jay Nichols</a>
+				<a class="navbar-brand" class="namebright" href="/">Jay Nichols</a>
+				<a class="navbar-brand" class="nameBright" href="/contact">Contact</a>
+				<a class="navbar-brand" class="nameBright" href="/portfolio">Portfolio</a>
 		 </div>
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		  <ul class="nav navbar-nav">
-			<li class="active"><a href="/contact">Contact<span class="sr-only">(current)</span></a></li>
-			<li class="active"><a href="/portfolio">Portfolio</a></li>
+			<!-- <li class="active"><a href="/contact" class="nameBright">Contact</a></li> -->
+			<!-- <li class="active"><a href="/portfolio" class="">Portfolio</a></li> -->
 		
 			<!--blog view is under construction -->
 			<!-- <li class="active"><a href="/blog">Blog</a></li> -->
