@@ -1,6 +1,7 @@
 #mainBody {
 	background-image: url(../img/calulator.jpg);
 	background-size: cover;
+
 }
 
 #calculator-title {
@@ -19,7 +20,10 @@
 	border: 5px groove;
 }
 
-
+#display {
+	position: relative;
+	left: 50px;
+}
 
 #leftSide, #rightSide {
 	width: 130px;
@@ -29,8 +33,10 @@
 	box-shadow: 1px 1px 1px #888888;
 	background: transparent;
 	text-align: right;
-	font-size: 16px;
+	font-size: 20px;
 	font-family: 'Orbitron', sans-serif;
+	color: limegreen;
+	font-weight: bold;
 }
 
 #operator {
@@ -42,6 +48,8 @@
 	background: transparent;
 	text-align: center;
 	font-size: 24px;
+	color: limegreen;
+	font-weight: bold;
 }
 
 button.btn.btn-info.btn-m {
