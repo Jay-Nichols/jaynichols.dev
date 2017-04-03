@@ -11,15 +11,21 @@
 	<link href="/css/simple-simon.css" rel="stylesheet">
 	<link href="/css/calculator.css" rel="stylesheet">
 	<link href="/css/weather-map.css" rel="stylesheet">
+	<link href="/css/master.css"rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">	
 	<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
 </head>
 <body>
-	<nav class="navbar navbar-inverse" id="navbar">
-		<div class="container-fluid">
+	<ul>
+		<li><a href="/">Jay Nichols</a></li>
+		<li><a href="/contact">Contact</a></li>
+		<li><a href="/portfolio">Portfolio</a></li>
+	</ul>
+	<!-- <nav class="navbar navbar-inverse" id="navbar">
+		<div class="container-fluid"> -->
 	<!-- Brand and toggle get grouped for better mobile display -->
-			 <div class="navbar-header">
+			 <!-- <div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
@@ -29,21 +35,21 @@
 				<a class="navbar-brand" class="namebright" href="/">Jay Nichols</a>
 				<a class="navbar-brand" class="nameBright" href="/contact">Contact</a>
 				<a class="navbar-brand" class="nameBright" href="/portfolio">Portfolio</a>
-		 </div>
+		 </div> -->
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  <ul class="nav navbar-nav">
+		<!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav"> -->
 			<!-- <li class="active"><a href="/contact" class="nameBright">Contact</a></li> -->
 			<!-- <li class="active"><a href="/portfolio" class="">Portfolio</a></li> -->
 		
 			<!--blog view is under construction -->
 			<!-- <li class="active"><a href="/blog">Blog</a></li> -->
-		  </ul>
-		</div><!-- /.navbar-collapse-->
-	  </div><!-- /.container-fluid-->
+		<!--   </ul>
+		</div>
+	  </div>
 	
-	</nav>
+	</nav> -->
 	<div>
 		@yield('content')	
 	</div>
