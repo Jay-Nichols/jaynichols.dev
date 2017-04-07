@@ -1,3 +1,9 @@
+
+#master {
+	background-image: url(../img/coast.jpg);
+	background-size: cover;	
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -10,7 +16,7 @@ li {
 	float: left;
 }
 
-li a{
+li a {
 	display: inline-block;
 	color: lightgrey;
 	text-align: center;

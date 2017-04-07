@@ -17,6 +17,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
 </head>
 <body>
+	<div id="master">
 	<ul>
 		<li><a href="/">Jay Nichols</a></li>
 		<li><a href="/contact">Contact</a></li>
@@ -50,6 +51,7 @@
 	  </div>
 	
 	</nav> -->
+	</div>
 	<div>
 		@yield('content')	
 	</div>
