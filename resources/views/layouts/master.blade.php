@@ -17,12 +17,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
 </head>
 <body>
-	<div id="master">
 	<ul>
 		<li><a href="/">Jay Nichols</a></li>
 		<li><a href="/contact">Contact</a></li>
 		<li><a href="/portfolio">Portfolio</a></li>
 	</ul>
+	<div id="master">
 	<!-- <nav class="navbar navbar-inverse" id="navbar">
 		<div class="container-fluid"> -->
 	<!-- Brand and toggle get grouped for better mobile display -->
